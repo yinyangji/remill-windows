@@ -95,7 +95,6 @@ if(NOT Z3_VERSION_STRING)
   set(Z3_VERSION_STRING "0.0.0")
 endif()
 
-
 # handle the QUIETLY and REQUIRED arguments and set Z3_FOUND to TRUE if
 # all listed variables are TRUE
 include(FindPackageHandleStandardArgs)

@@ -106,7 +106,6 @@ function(GetTargetTree output_variable)
       endif()
 
       # Try to find the actual file
-      
       if ("${target_type}" STREQUAL "UNKNOWN_LIBRARY" OR
           "${target_type}" STREQUAL "STATIC_LIBRARY" OR
           "${target_type}" STREQUAL "SHARED_LIBRARY" OR
